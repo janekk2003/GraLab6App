@@ -45,7 +45,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "GDZIE JEST DYDELF";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnStart
             // 
@@ -55,6 +54,7 @@
             this.btnStart.TabIndex = 1;
             this.btnStart.Text = "START";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // btnOpcje
             // 
@@ -64,6 +64,7 @@
             this.btnOpcje.TabIndex = 2;
             this.btnOpcje.Text = "OPCJE";
             this.btnOpcje.UseVisualStyleBackColor = true;
+            this.btnOpcje.Click += new System.EventHandler(this.btnOpcje_Click);
             // 
             // btnOpusc
             // 
